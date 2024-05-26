@@ -1,4 +1,3 @@
-[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/arierinaldie/php8-docker/tree/8.3-fpm-alpine/total?label=Downloaded%20releases)](https://github.com/arierinaldie/php8-docker/releases)
 [![Downloaded GitHub Releases](https://img.shields.io/github/downloads/arierinaldie/php8-docker/total.svg)](https://github.com/arierinaldie/php8-docker/releases)
 
 # php8.3-fpm-alpine
@@ -10,11 +9,11 @@ docker build -f ./8.3-fpm-alpine/Dockerfile -t test_phpimage ./8.3-fpm-alpine
 ```
 
 ## Usage
-### Dive into container
+* Dive into container
 ```sh
 docker run -it --rm --name test_run_phpimage test_phpimage:latest sh
 ```
-### list all installed extension
+* list all installed extension
 ```sh
 docker run -it --rm --name test_run_phpimage test_phpimage:latest php -m
 ```
