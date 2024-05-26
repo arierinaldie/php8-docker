@@ -9,10 +9,74 @@ docker build -f ./8.3-fpm-alpine/Dockerfile -t test_phpimage ./8.3-fpm-alpine
 ```
 
 ## Usage
+### Dive into container
 ```sh
-# list all installed extension
-docker run -it --rm --name test_run_phpimage test_phpimage:latest php -m
-
-# dive in to container
 docker run -it --rm --name test_run_phpimage test_phpimage:latest sh
 ```
+### list all installed extension
+```sh
+docker run -it --rm --name test_run_phpimage test_phpimage:latest php -m
+```
+`docker run -it --rm --name test_run_phpimage test_phpimage:latest php -m
+[PHP Modules]
+amqp
+apcu
+bcmath
+calendar
+Core
+ctype
+curl
+date
+dom
+exif
+fileinfo
+filter
+ftp
+gd
+hash
+iconv
+igbinary
+imagick
+intl
+json
+libxml
+mbstring
+memcached
+mongodb
+mysqli
+mysqlnd
+openssl
+pcntl
+pcre
+PDO
+pdo_mysql
+pdo_pgsql
+pdo_sqlite
+pgsql
+Phar
+posix
+random
+readline
+redis
+Reflection
+session
+shmop
+SimpleXML
+sockets
+sodium
+SPL
+sqlite3
+ssh2
+standard
+tokenizer
+xml
+xmlreader
+xmlrpc
+xmlwriter
+Zend OPcache
+zip
+zlib
+
+[Zend Modules]
+Zend OPcache
+`
