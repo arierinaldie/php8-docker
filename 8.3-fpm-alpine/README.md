@@ -1,4 +1,4 @@
-[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/arierinaldie/php8-docker/total.svg)](https://github.com/arierinaldie/php8-docker/releases)
+[![Downloaded GitHub Releases](https://img.shields.io/github/downloads/arierinaldie/php8-docker/total?label=Downloaded%20releases)](https://github.com/arierinaldie/php8-docker/releases)
 
 # php8.3-fpm-alpine
 Customized version of the official php8.3-fpm-alpine docker images for developing containerize web app using php8.3
